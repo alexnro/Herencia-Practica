@@ -33,6 +33,14 @@ public class Elipse extends FiguraGeometrica {
         return this.ejeMenor;
     }
 
+    public void setEjeMayor(double ejeMayor) {
+        this.ejeMayor = ejeMayor;
+    }
+
+    public void setEjeMenor(double ejeMenor) {
+        this.ejeMenor = ejeMenor;
+    }
+
     @Override
     public double area() {
         return PI * getEjeMayor() * getEjeMenor();

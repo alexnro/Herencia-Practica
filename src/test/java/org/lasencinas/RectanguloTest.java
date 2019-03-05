@@ -19,7 +19,7 @@ public class RectanguloTest {
 
     @Test
     public void constructorSuperTest() {
-        
+
     }
 
 }

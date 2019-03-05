@@ -31,6 +31,14 @@ public class Rectangulo extends FiguraGeometrica {
         return this.anchura;
     }
 
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public void setAnchura(double anchura) {
+        this.anchura = anchura;
+    }
+
     @Override
     public double area() {
         return getAltura() * getAnchura();

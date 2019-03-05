@@ -24,6 +24,10 @@ public class Cuadrado extends FiguraGeometrica {
         return this.lado;
     }
 
+    public void setLado(double lado) {
+        this.lado = lado;
+    }
+
     @Override
     public double area() {
         return Math.pow(getLado(), 2);

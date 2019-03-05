@@ -26,6 +26,10 @@ public class Circulo extends FiguraGeometrica {
         return this.radio;
     }
 
+    public void setRadio(double radio) {
+        this.radio = radio;
+    }
+
     @Override
     public double area() {
         return PI * Math.pow(getRadio(), 2);
