@@ -38,4 +38,9 @@ public class CirculoTest {
         circuloConstructorLocal.setNombre("nombre");
         assertEquals("nombre", circuloConstructorLocal.getNombre());
     }
+
+    @Test
+    public void constructorVacioTest() {
+        assertEquals("Desconocido", circuloConstructorVacio.getNombre());
+    }
 }
