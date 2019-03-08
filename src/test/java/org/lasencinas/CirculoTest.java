@@ -30,4 +30,12 @@ public class CirculoTest {
         assertEquals("círculo", circuloConstructorSuper.getNombre());
         assertEquals(113.1, circuloConstructorSuper.area(), 0.1);
     }
+
+    @Test
+    public void constructorLocalTest() {
+        assertEquals("círculo", circuloConstructorLocal.getNombre());
+
+        circuloConstructorLocal.setNombre("nombre");
+        assertEquals("nombre", circuloConstructorLocal.getNombre());
+    }
 }
